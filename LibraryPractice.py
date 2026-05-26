@@ -54,10 +54,13 @@ store = response.json()
 #for result in store['results']:
     #print(result['trackName'])
 
-    
-from saying import hello, goodbye
+
+'''from saying import hello, goodbye
 
 if len(sys.argv) == 2:
     hello(sys.argv[1])
-    goodbye(sys.argv[1])
+    goodbye(sys.argv[1])'''
 
+
+'''Style of Python coding: PEP 8 (pycodestyle, pip install pycodestyle)
+In terminal: black filename.py (e.g., black ProblemSet3.py) to format code'''
