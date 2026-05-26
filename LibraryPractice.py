@@ -51,6 +51,13 @@ if len(sys.argv) != 2:
     sys.exit("No name provided.") 
 response = requests.get("https://itunes.apple.com/search?entity=song&limit=50&term=" + sys.argv[1])
 store = response.json()
-for result in store['results']:
-    print(result['trackName'])
-   
+#for result in store['results']:
+    #print(result['trackName'])
+
+    
+from saying import hello, goodbye
+
+if len(sys.argv) == 2:
+    hello(sys.argv[1])
+    goodbye(sys.argv[1])
+
